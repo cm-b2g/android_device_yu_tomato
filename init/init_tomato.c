@@ -71,9 +71,9 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
     snprintf(density, sizeof(density), "%d", display_density);
     property_set(PROP_LCDDENSITY, density);
     if (display_density == 480) {
-        property_set("ro.product.model", "YU5510");
+        property_set("ro.product.model", "Yureka Plus");
     } else {
-        property_set("ro.product.model", "AO5510");
+        property_set("ro.product.model", "Yureka");
     }
 }
 
