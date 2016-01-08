@@ -49,6 +49,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mass_storage
 
+# Use QCOM bluetooth HAL
+BOARD_BLUETOOTH_BDROID_USE_CAF_EXTENSIONS := true
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tomato
 PRODUCT_NAME := full_tomato
