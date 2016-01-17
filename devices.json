@@ -1,0 +1,13 @@
+[
+  {
+    "id": "YU Yureka",
+    "adb": {
+      "ro.product.device": [ "YUREKA" ],
+      "ro.bootloader": "tomato-12-gfae8fcb",
+      "ro.build.id": ["LMY48B"]
+    },
+    "fastboot": {
+      "product": [ "MSM8916" ]
+    }
+  }
+]

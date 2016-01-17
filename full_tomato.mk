@@ -26,6 +26,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from tomato device
 $(call inherit-product, device/yu/tomato/device.mk)
 
+TARGET_DEVICE_BLOBS_LIST := true
+TARGET_DEVICE_BLOBS_SRC_DIR := vendor/yu/tomato/proprietary
+TARGET_DEVICE_BLOBS := \
+    device/yu/tomato/proprietary-files.txt \
+    device/yu/tomato/proprietary-files-qc.txt
+
 # Build Gecko as 32bit (64bit is not yet implemented)
 BUILD_MULTILIB_GECKO_AS_2ND_ARCH := true
 
